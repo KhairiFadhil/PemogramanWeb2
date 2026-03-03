@@ -3,47 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="../stylesheets/style.css"/>
     <title>Document</title>
 </head>
-<body>
-    <h1>
-        Form Kehadiran Praktikan
-    </h1>
-    <form>
-        <label for="username">Nama : </label>
-        <input type="text" id="username" placeholder="Masukkan nama">
-        <br>
-        <br>
-        <label for="NPM">NPM : </label>
-        <input id="npm" type="number" placeholder="Masukkan NPM">
-        <br>
-        <br>
-        <label for="Kelas">Kelas : </label>
-        <select>
-            <option>
-                Pilih Kelas
-            </option>
-            <option>
-                A
-            </option>
-            <option>
-                B
-            </option>
-        </select>
-        <br>
-        <br>
-        <label for="tanggal">Tanggal : </label>
-        <input id="tanggal" type="date">
-        <br>
-        <br>
-        <label for="waktu">waktu : </label>
-        <input type="time" id="waktu">
-        <br>
-        <br>
-        <button>
-            Submit
-        </button>
-    </form>
+<body style="display: flex; flex-direction:column; ">
+    <form class="form"> 
+        <h1 style="" class="">
+            Forum Kehadiran
+            <br>
+            <div style="font-weight: 100; font-size:x-small">
+                <h3>matkul <a style="color:rgba(0, 115, 255, 0.89)">PemWEB!</a></h3>
+            </div>
+        </h1>
+        <div style="display: flex; gap:0.6rem; flex-direction:column">
+         <input class="input-element" type="text" placeholder="Nama Lengkap">
+         <input class="input-element" type="password" placeholder="Password">         
+         <input class="input-element" type="number" placeholder="NPM">
+         <input class="input-element" type="input" placeholder="Kelas">
+         <input class="input-element" type="date" placeholder="Tanggal">
+
+        </div>
+
+            <button class="button-submit">
+                Submit
+            </button>
+        </form>
 </body>
 </html>
