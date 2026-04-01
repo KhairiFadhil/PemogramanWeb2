@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Raid Fadhil Khairi</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            padding: 30px 16px;
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            color: #222;
+            background: #eef2f5;
+        }
+
+        main {
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 36px 30px;
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            border-radius: 22px;
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 34px;
+        }
+
+        .name {
+            margin: 0 0 10px;
+            font-size: 34px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #183b66;
+        }
+
+        .deskripsi {
+            margin: 0;
+            color: #7a7a7a;
+            font-size: 24px;
+            font-style: italic;
+        }
+
+        .section {
+            margin-bottom: 28px;
+        }
+
+        .title {
+            font-weight: 700;
+            margin: 0 0 14px;
+            padding-bottom: 8px;
+            font-size: 18px;
+            color: #183b66;
+            border-bottom: 2px solid #3392ff;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        ol {
+            margin: 0;
+            padding-left: 26px;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            transition: transform 0.2s ease;
+        }
+
+        a {
+            color: #0b57d0;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #083a8c;
+            text-decoration: underline;
+        }
+
+        img {
+            vertical-align: middle;
+        }
+
+        main:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+        }
+
+        li:hover {
+            transform: translateX(4px);
+        }
+
+        .sosial-media {
+            display: flex;
+            justify-content: center;
+            gap: 70px;
+            padding: 8px 0 0;
+            list-style: none;
+        }
+
+        .sosial-media li {
+            margin-bottom: 0;
+            text-align: center;
+        }
+
+        .sosial-media a {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            font-size: 16px;
+        }
+
+        .sosial-media img {
+            width: 48px;
+            height: 48px;
+            transition: transform 0.2s ease;
+        }
+
+        .sosial-media a:hover img {
+            transform: scale(1.08);
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 20px 12px;
+            }
+
+            main {
+                padding: 24px 18px;
+            }
+
+            .name {
+                font-size: 26px;
+                letter-spacing: 2px;
+            }
+
+            .deskripsi {
+                font-size: 18px;
+            }
+
+            .sosial-media {
+                gap: 26px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="header">
+            <p class="name">Raid Fadhil Khairi</p>
+            <p class="deskripsi">"Saya adalah mahasiswa Prodi Sistem Informasi di Universitas Lampung"</p>
+        </div>
+
+        <div class="section">
+            <p class="title">Data Diri</p>
+            <ul>
+                <li>Email: <a href="mailto:raidfadhilkhairi@gmail.com" target="_blank" rel="noopener noreferrer">LINK</a></li>
+                <li>No. HP: <a href="tel:+6285814095093" target="_blank" rel="noopener noreferrer">LINK</a></li>
+                <li>Whatsapp: <a href="https://wa.me/6285814095093" target="_blank" rel="noopener noreferrer">LINK</a></li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <p class="title">Hobi</p>
+            <ol>
+                <li>Programming</li>
+                <li>Bermain Game</li>
+                <li>Membaca Komik dan Novel</li>
+            </ol>
+        </div>
+
+        <div class="section">
+            <p class="title">Media Sosial</p>
+            <ul class="sosial-media">
+                <li><a href="https://www.facebook.com/s4b3i/" target="_blank" rel="noopener noreferrer"><img src="asset/facebook.svg" alt="Facebook">Facebook</a></li>
+                <li><a href="https://www.instagram.com/khairiefadhil/" target="_blank" rel="noopener noreferrer"><img src="asset/instagram.svg" alt="Instagram">Instagram</a></li>
+                <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><img src="asset/twitter.svg" alt="Twitter">Twitter</a></li>
+            </ul>
+        </div>
+    </main>
+</body>
+</html>
